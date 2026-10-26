@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<h4>Rellena el siguiente cuestionario para formar parte del club de "Amigos de la informática"</h4>
+
+<form>
+    <h4>Datos personales</h4>
+    <p>Nombre: <input type="text"></p>
+    <p>Domicilio: <input type="text" placeholder="<calle, numero y localidad>"></p>
+    <p>País de origen: 
+        <select name="pais">
+            <option value="1">España</option>
+        </select>
+    </p>
+    <p>Fecha de nacimiento <input type="date"></p>
+    <p>Correo electrónico: <input type="email"></p>
+    <p>Teléfono: <input type="NUMBER"></p>
+    
+    <p>Estado civil: 
+        <input type="radio" name="estado_civil">Solter@ 
+        <input type="radio" name="estado_civil">Casad@ 
+        <input type="radio" name="estado_civil">Separad@ 
+        <input type="radio" name="estado_civil">Viud@
+    </p>
+
+    <p>Sexo: 
+        <input type="radio" name="sexo">Hombre 
+        <input type="radio" name="sexo">Mujer
+    </p>
+
+    <h4>Otra información de interés</h4>
+    
+    <p>Seleccione los componentes electrónicos con los que habitualmente trabajas:
+        <select name="componentes" multiple size="4">
+            <option value="1">Móvil</option>
+            <option value="2">Tablet</option>
+            <option value="3">Ordenador</option>
+            <option value="4">Ebook</option>
+        </select>
+    </p>
+
+    <p>Seleccione tus actividades favoritas:</p>
+    <p><input type="checkbox">Hacer deporte <input type="checkbox">Salir con mis amigos <input type="checkbox">Ver series, pelis,...</p>
+    <p><input type="checkbox">Realizar rutas de senderiso <input type="checkbox">Ir al cine <input type="checkbox">Escuchar música</p>
+
+    <p>Explique brevemente el motivo por el que desea ingresar en nuestro club:</p>
+    <textarea rows="4" cols="50"></textarea>
+
+    <p>Elige o escribe tu peli favorita: <input type="text" list="peliculas"></p>
+    <datalist id="peliculas">
+        <option value="El Señor de los Anillos">
+        <option value="Matrix">
+        <option value="Star Wars">
+    </datalist>
+
+    <br><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Cancelar">
+</form>
+
+<footer>
+    <a href="../index.html">Volver al Inicio</a>
+</footer>

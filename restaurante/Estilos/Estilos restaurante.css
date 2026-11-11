@@ -1,0 +1,39 @@
+h1{
+text-align: center;
+ color: black;  
+
+}
+
+h2{
+text-align: center;
+ color: black;  
+
+}
+
+nav{
+text-align: center;
+ color: black;  
+word-spacing: 10px;
+background-color: #0e55b3d5
+}
+
+a:hover{
+      color: white;  
+}
+
+body{
+background-color:rgb(19, 117, 36) 
+
+}
+
+body{
+text-align: center;
+
+}
+
+ul{
+text-align: center;
+ color: black;  
+word-spacing: 10px;
+background-color: #0e55b3d5
+}

@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+}
+
+body{
+background-color:rgb(19, 117, 36) 
+}
+
+h1{
+    background-color: lightcoral;
+}
+
+h2{
+     background-color: lightcoral;
+}
+
+a:hover{
+      color: white;  
+}
+
+th{
+      background-color: rgb(10, 175, 73);  
+}
+
+td{
+      background-color: rgb(13, 199, 60);  
+}
+
+

@@ -1,19 +1,18 @@
-header{
+.bor{
+    border-radius: 40px 0px 40px;
+    box-shadow: 40px 20px 0px 0px rgb(245, 235, 97);
+    background-color: rgba(156, 158, 10, 0.582);
+}
+legend{
+    text-align: right;
+}
+
+
+.rop{
+    border-radius: 40px 0px 40px;
+    box-shadow: 40px 20px 0px 0px  rgb(245, 235, 97);
+    background-color: rgba(241, 243, 113, 0.877);
     text-align: center;
 }
 
-body{
-background-color:rgb(19, 117, 36) 
-}
 
-h1{
-    background-color: lightcoral;
-}
-
-h2{
-     background-color: lightcoral;
-}
-
-a:hover{
-      color: white;  
-}
